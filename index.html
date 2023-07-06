@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémone Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <script defer src="first.js"></script>
+</head>
+<body>
+    <header>
+        
+        <div class="rect1">
+            <a href="#" class="btn1">Log In</a>
+        </div>
+    </header>
+    <main>
+        <div class="rect2">
+            <div class="rect3">
+                <h1 class="he1">Type Your Poké Name:</h1>
+                <br>
+                <div class="rect4">
+                    <input type="text" id="poketake" placeholder="Pokémone Name" class="input1">
+                    <a href="Page2.html" onclick="passdata()" ><img src="Ellipse 3.png" alt="" class="pokéball"></a>
+                    <p class="p1">Click The Ball To Find</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="rect5">
+        <div>
+            <h1 class="Support">Support Us :</h1>
+            <p class="s1">Paypal</p>
+            <a href=""><div class="box1"></div></a>
+        </div>
+            <h1 class="contact">Contact Us : <br><p class="s1">User@gmail.com
+                +123 456 789</p></h1>
+            <h1 class="Follow">Follow Us: <br><ul><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-youtube"></i></a></li><li><a href="#"><i class="fa fa-twitch"></i></a></li><li><a href="#"><i class="fa fa-instagram"></i></a></li></ul></h1>
+
+    </footer>
+    <script>
+        function passdata(){
+            var input = document.getElementById("poketake").value ;
+            localStorage.setItem("data",input)
+        }
+    </script>
+</body>
+</html>

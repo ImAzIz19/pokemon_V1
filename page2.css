@@ -1,0 +1,277 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kalam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: 1440px;
+    height: 1024px;
+    border-radius: 60px;
+    background-image: url(/2714119.png);
+    background-size: 100% 100% ;
+}
+main{
+    display: flex;
+}
+.box{
+    display: flex;
+    width: 743px;
+    height: 743px;
+    flex-shrink: 0;
+    border-radius: 75px;
+    border: 3px solid #54B572;
+    background: rgba(171, 208, 83, 0.62);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
+    margin-top: 141px;
+    margin-left: 81px;
+}
+.box2{
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: rgba(196, 196, 196, 0.35);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 153px;
+    margin-top: 141px;
+}
+.box3{
+    display: flex;
+    width: 350px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #E7ADCE;
+    background: #F9F6C3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 531px;
+    margin-left: -350px;
+}
+.pokeimage{
+    width: 350px;
+    height: 350px;
+}
+.pokename{
+    display: flex;
+    width: 319px;
+    height: 46px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-family: 'Jeju Hallasan', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 41px;
+    margin-top: 39px;
+
+}
+.poketype{
+    display: flex;
+    max-width: 600px;
+    height: 46px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-family: 'Jeju Hallasan', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -319px;
+    margin-top: 175px;
+
+}
+.pokeabili{
+    display: flex;
+    width: 196px;
+    height: 46px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-family: 'Jeju Hallasan', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -600px;
+    margin-top: 311px;
+
+}
+.pokestats{
+    display: flex;
+    width: 142px;
+    height: 46px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-family: 'Jeju Hallasan', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -196px;
+    margin-top: 447px;
+}
+.minibox{
+    background-image: url(image/hp.png);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 501px;
+    margin-left: -142px;
+}
+.minibox2{
+    background-image: url(image/sowrd.png);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: -50px;
+    margin-top: 581px;
+
+}
+.minibox3{
+    background-image: url(image/sheild.png);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: -50px;
+    margin-top: 661px;
+
+}
+.minibox4{
+    background-image: url(image/spattack.png);
+    background-size: 50px 50px;    
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 501px;
+    margin-left: 255px;
+
+
+}
+.minibox5{
+    background-image: url(image/spdefence.png);
+    background-size: 50px 50px;  
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 581px;
+    margin-left: -50px;
+
+
+}
+.minibox6{
+    background-image: url(image/spped.png);
+    background-size: 50px 50px;    
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 661px;
+    margin-left: -50px;
+
+}
+.p1name{
+    display: flex;
+    width: 319px;
+    height: 46px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 0, 0, 0.65);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 330px;
+    margin-top: -56px;
+}
+.hp{
+    display: flex;
+    width: 319px;
+    height: 46px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 0, 0, 0.65);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 62px;   
+}
+.typestyle{
+    display: flex;
+    width: 598px;
+    height: 43px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 0, 0, 0.65);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Kalam;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 200px;
+}
+.abilitiesstyle{
+    display: flex;
+    width: 598px;
+    height: 43px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 0, 0, 0.65);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Kalam;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+}
+.weight{
+    display: flex;
+    align-items: center;
+    width: 141px;
+    height: 36px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Itim', cursive;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
+
+}
+.height{
+    align-items: center;
+    display: flex;
+    width: 141px;
+    height: 36px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Itim', cursive;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 34px;
+    margin-top: 32px;
+}

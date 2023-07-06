@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    height: 1000px;
+    background-color: rgba(241, 12, 12, 0.23) ;  
+    border-radius: 60px;
+    display: flex;
+    flex-flow: row wrap  ; 
+}
+.rect1{
+    margin-top: -27px;
+    width: 1519px;
+    height: 265px;
+    background-color: rgba(0, 0, 0, 0.81);
+    transform: skewY(2deg) ;
+    position: absolute;
+}
+.btn1{
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    margin-left: 1300px;
+    font-family:'Indie Flower', cursive; ;
+    font-size: 45px;
+    align-items: center;
+    color: white    ;
+    position: relative;
+    top: 3px;
+}
+.btn1:hover{
+    background-color: #117AA9;
+}
+.rect2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1519px;
+    height: 700px;
+    background: url(./2714119.png) ; 
+    transform: skewY(4deg) ;
+    position: absolute;
+    top: 265px;
+    background-size: 1519px 700px   ;
+}
+.rect3{
+    width: 1006px;
+    height: 265px;
+    border-radius: 75px;
+    border: 1px solid rgba(62, 187, 196, 1);
+    background-color: rgba(137, 194, 63, 0.66); 
+    transform: skewY(-3deg) ;
+    display: flex;
+}
+.he1{
+    margin-top: 26px;
+    margin-left: 273px;
+    display: flex;
+    width: 470px;
+    height: 58px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154.4%;
+}
+.rect4{
+    border-radius: 75px ;
+    width: 569px;
+    height: 140px;
+    flex-shrink: 0;
+    border: 1px solid rgba(62, 187, 196, 1);
+    background-color: rgba(255, 255, 255, 0.66);
+    position: relative;
+    top: 103px;
+    left: -50%;
+    display: flex;
+    align-items: start;
+    
+    
+}
+.input1{
+    margin-top: 17px;
+    display: flex;
+    width: 290px;
+    height: 22px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;    
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Imprima', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    border: 0;
+    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.66);
+    position: relative;
+    left: 141px;
+
+}
+.input1::placeholder{
+    color: rgba(0, 0, 0, 0.46);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Imprima', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+}
+.pokéball{
+    width: 75px;
+    height: 75px;
+    transform: rotate(-0.156deg);
+    flex-shrink: 0;
+    border-radius: 75px;
+    position: relative;
+    top: 41px;
+    left: -50px;
+}
+.p1{
+    display: flex;
+    width: 165px;
+    height: 25px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    position: relative;
+    top: 115px;
+    left: -30%;
+}
+.rect5{
+    width: 1519px;
+    height: 265px;
+    background-color:rgba(0, 0, 0, 0.81) ;
+    position: absolute;
+    transform: scaleY(-2deg);
+    top: 1020px;
+}
+.Support{
+
+    display: flex;
+    width: 310px;
+    height: 59px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 48px;
+    font-family: Kaushan Script;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    margin-left: 20px;
+}
+.contact{
+    display: flex;
+    width: 310px;
+    height: 59px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 48px;
+    font-family: Kaushan Script;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    margin-left: 537px;  
+    position :relative ;
+    top: -270px;
+}
+.Follow{
+    display: flex;
+    width: 310px;
+    height: 59px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 48px;
+    font-family: Kaushan Script;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+    margin-left: 1077px;  
+    position :relative ;
+    top: -330px;
+}
+.s1{
+    display: flex;
+    width: 256px;
+    height: 165px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.9%;
+}
+.box1{
+    background-image: url(emblem-Paypal.jpg);
+    width: 50px;
+    height: 50px ;
+    background-size: 50px 50px  ;
+    position: relative;
+    top:-75px    ;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    left: 100px;
+
+}
+.fa-twitter{
+    color: cyan;
+}
+.fa-youtube{
+    color: red;
+}
+ul{
+    gap: 20px   ;
+    display: flex;
+    list-style: none;   
+}
